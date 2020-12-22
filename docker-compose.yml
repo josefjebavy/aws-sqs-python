@@ -1,0 +1,11 @@
+version: '3.6'
+  
+services:
+
+  web:
+    build: ./
+    image: aws-sqs-example-image
+    container_name: aws-sqs-example-container
+    
+
+
